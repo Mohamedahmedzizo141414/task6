@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(247, 240, 240);
+    height: 1000px;
+}
+.header{
+   background-color: rgb(233, 219, 219);
+   border-radius: 7px;
+   width: 85%;
+   height: 60px;
+   position: fixed;
+   top: 15px;
+   left: 70px;
+   z-index: 20;
+}
+.header img{
+    float: left;
+    width: 180px;
+    height: 60px;
+    padding-left: 10px;
+}
+.header ul{
+    float: right;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+.header li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: rgb(209, 192, 192);
+    width: 70px;
+    height: 20px;     */
+}
+.header a{
+    text-decoration: none;
+    color: black;
+     background-color: rgb(209, 192, 192);
+      width: 70px;
+    height: 20px;
+     margin-left: 15px;
+}
+.header ul .lip{
+    padding-left: 13px;
+}
+.header ul .lih{
+     padding-left: 11px;
+}
+.header ul .lis{
+     padding-left: 9px;
+}
+.header ul .lic{
+    padding-left: 9px;
+}
+.header ul .lia{
+    padding-left: 3px;
+}
+.header ul .lipp{
+    padding-left: 2px;
+}
+.header a:hover{
+    background-color: rgb(20, 18, 18);
+    color: white;
+}
+/* ////////////////////////// */
+.parent{
+ width: 100%;
+ height: 1000px;
+ background-color: rgb(241, 239, 239);
+ position: relative;
+ 
+}
+.parent .title{
+    width: 250px;
+    height: 100px;
+    position:absolute;
+    z-index: 1;
+    top: 150px;
+    left: 400px;
+}
+.parent .title hr{
+    width: 70px;
+    margin-top: 80px;
+    margin-left: 50px;
+     border: 1px solid #16171a;
+}
+.parent .section2{
+    width: 85%;
+    height: 500px;
+    background-color:rgb(247, 240, 240);
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 65px;
+}
+.div1 , .div2 , .div3{
+    width: 25%;
+    height: 370px;
+    border: 1px solid #16171a;
+    float: left;
+    margin: 25px;
+    margin-left: 40px;
+    
+}
+.div1 , .div2 , .div3{
+    text-align: center;
+}
+.div1 hr , .div2 hr , .div3 hr{
+    width: 120px;
+     border: 1px solid   #16171a;
+     margin-left: 50px;
+}
+button{
+    width: 70px;
+    height: 30px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.p1{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+    
